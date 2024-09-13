@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remover Tags HTML</title>
+</head>
+
+<body>
+  <h1>Remover Tags HTML</h1>
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <label for="file">Escolha o arquivo HTML:</label>
+    <input type="file" id="file" name="file" accept=".html" required>
+    <br><br>
+    <label for="tag_name">Digite a tag que deseja remover (ex: h1, span):</label>
+    <input type="text" id="tag_name" name="tag_name" required>
+    <br><br>
+    <button type="submit">Enviar e Remover</button>
+  </form>
+</body>
+
+</html>
+
+!
